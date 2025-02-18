@@ -5791,3 +5791,777 @@ Memory consumption went from 141.3 MB to 138.4 MB.
 Total: 256.264000 ms (FindLiveObjects: 3.764200 ms CreateObjectMapping: 0.548000 ms MarkObjects: 247.005500 ms  DeleteObjects: 4.942200 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+[usbmuxd] Attached: 1 05610057e7d625b478db3a18234321511aa91c59
+[usbmuxd] Attached: 1 05610057e7d625b478db3a18234321511aa91c59
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 14.85 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.58 ms.
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6336 unused Assets / (3.9 MB). Loaded Objects now: 7103.
+Memory consumption went from 141.3 MB to 137.4 MB.
+Total: 246.459000 ms (FindLiveObjects: 4.773300 ms CreateObjectMapping: 2.354400 ms MarkObjects: 231.614500 ms  DeleteObjects: 7.711600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  4.643 seconds
+Refreshing native plugins compatible for Editor in 15.42 ms, found 3 plugins.
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Native extension for LinuxStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Failed to load: C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.Multiplayer.Playmode.Workflow.Editor.ProjectDataStore..ctor (System.String directory) [0x0006e] in .\Library\PackageCache\com.unity.multiplayer.playmode\Workflow\Editor\Configuration\ProjectDataStore.cs:55 
+  at Unity.Multiplayer.Playmode.Workflow.Editor.ProjectDataStore.GetMain () [0x00000] in .\Library\PackageCache\com.unity.multiplayer.playmode\Workflow\Editor\Configuration\ProjectDataStore.cs:36 
+  at Unity.Multiplayer.Playmode.Workflow.Editor.WorkflowMainEditorContext..ctor (Unity.Multiplayer.Playmode.VirtualProjects.Editor.MainEditorContext mainEditorContext) [0x0002c] in .\Library\PackageCache\com.unity.multiplayer.playmode\Workflow\Editor\Contexts\WorkflowMainEditorContext.cs:15 
+  at Unity.Multiplayer.Playmode.Workflow.Editor.VirtualProjectWorkflow.InitializeMPPMContexts () [0x00018] in .\Library\PackageCache\com.unity.multiplayer.playmode\Workflow\Editor\Workflow\VirtualProjectWorkflow.cs:198 
+  at Unity.Multiplayer.Playmode.Workflow.Editor.VirtualProjectWorkflow+<>c.<.cctor>b__22_0 () [0x00036] in .\Library\PackageCache\com.unity.multiplayer.playmode\Workflow\Editor\Workflow\VirtualProjectWorkflow.cs:85 
+  at Unity.Multiplayer.Playmode.VirtualProjects.Editor.EditorContexts.SendReadyEvent () [0x00038] in .\Library\PackageCache\com.unity.multiplayer.playmode\VirtualProjects\Editor\Contexts\EditorContexts.cs:56 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <5a8bfa4804234695888f9129fe33846c>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <5a8bfa4804234695888f9129fe33846c>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <5a8bfa4804234695888f9129fe33846c>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in <45b9485b4ba64564b30d91e935218d54>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.184 seconds
+Domain Reload Profiling: 6825ms
+	BeginReloadAssembly (2776ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (278ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (5ms)
+		CreateAndSetChildDomain (1399ms)
+	RebuildCommonClasses (111ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (139ms)
+	LoadAllAssembliesAndSetupDomain (1597ms)
+		LoadAssemblies (1725ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (461ms)
+			TypeCache.Refresh (51ms)
+				TypeCache.ScanAssembly (3ms)
+			BuildScriptInfoCaches (392ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (2185ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1671ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (76ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (212ms)
+			ProcessInitializeOnLoadAttributes (976ms)
+			ProcessInitializeOnLoadMethodAttributes (383ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (4ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 9.09 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.16 ms.
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6365 unused Assets / (5.3 MB). Loaded Objects now: 7107.
+Memory consumption went from 141.5 MB to 136.2 MB.
+Total: 23.081100 ms (FindLiveObjects: 1.303700 ms CreateObjectMapping: 0.975400 ms MarkObjects: 13.252500 ms  DeleteObjects: 7.543200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.982 seconds
+Refreshing native plugins compatible for Editor in 6.24 ms, found 3 plugins.
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Native extension for LinuxStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Failed to load: C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.Multiplayer.Playmode.Workflow.Editor.ProjectDataStore..ctor (System.String directory) [0x0006e] in .\Library\PackageCache\com.unity.multiplayer.playmode\Workflow\Editor\Configuration\ProjectDataStore.cs:55 
+  at Unity.Multiplayer.Playmode.Workflow.Editor.ProjectDataStore.GetMain () [0x00000] in .\Library\PackageCache\com.unity.multiplayer.playmode\Workflow\Editor\Configuration\ProjectDataStore.cs:36 
+  at Unity.Multiplayer.Playmode.Workflow.Editor.WorkflowMainEditorContext..ctor (Unity.Multiplayer.Playmode.VirtualProjects.Editor.MainEditorContext mainEditorContext) [0x0002c] in .\Library\PackageCache\com.unity.multiplayer.playmode\Workflow\Editor\Contexts\WorkflowMainEditorContext.cs:15 
+  at Unity.Multiplayer.Playmode.Workflow.Editor.VirtualProjectWorkflow.InitializeMPPMContexts () [0x00018] in .\Library\PackageCache\com.unity.multiplayer.playmode\Workflow\Editor\Workflow\VirtualProjectWorkflow.cs:198 
+  at Unity.Multiplayer.Playmode.Workflow.Editor.VirtualProjectWorkflow+<>c.<.cctor>b__22_0 () [0x00036] in .\Library\PackageCache\com.unity.multiplayer.playmode\Workflow\Editor\Workflow\VirtualProjectWorkflow.cs:85 
+  at Unity.Multiplayer.Playmode.VirtualProjects.Editor.EditorContexts.SendReadyEvent () [0x00038] in .\Library\PackageCache\com.unity.multiplayer.playmode\VirtualProjects\Editor\Contexts\EditorContexts.cs:56 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <5a8bfa4804234695888f9129fe33846c>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <5a8bfa4804234695888f9129fe33846c>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <5a8bfa4804234695888f9129fe33846c>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in <45b9485b4ba64564b30d91e935218d54>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.728 seconds
+Domain Reload Profiling: 2708ms
+	BeginReloadAssembly (278ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (69ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (566ms)
+		LoadAssemblies (470ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (233ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (215ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1729ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1318ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (54ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (194ms)
+			ProcessInitializeOnLoadAttributes (804ms)
+			ProcessInitializeOnLoadMethodAttributes (248ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (25ms)
+Refreshing native plugins compatible for Editor in 6.92 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6365 unused Assets / (2.9 MB). Loaded Objects now: 7110.
+Memory consumption went from 141.5 MB to 138.6 MB.
+Total: 13.561100 ms (FindLiveObjects: 1.900700 ms CreateObjectMapping: 1.136000 ms MarkObjects: 7.379200 ms  DeleteObjects: 3.143100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 2642.942690 seconds.
+  path: Assets/BallSpawner.cs
+  artifactKey: Guid(ca1027bbfa3f14b419803fcd7001accb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BallSpawner.cs using Guid(ca1027bbfa3f14b419803fcd7001accb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c2f16ec8c8bae1cdf7fc3235bd0e430a') in 0.6645552 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Scenes/Field.prefab
+  artifactKey: Guid(712c52c43f1cc274e95059674c24a8d4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Field.prefab using Guid(712c52c43f1cc274e95059674c24a8d4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dbc1fd9acc12578353a7854927fbd139') in 0.0886253 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 36
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Shared/background.png
+  artifactKey: Guid(f6b106ce8c0c143529db1802d3ff9e4e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Shared/background.png using Guid(f6b106ce8c0c143529db1802d3ff9e4e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'daf4b55100f14bf8b6140d1aa7945b23') in 0.1818962 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Sprites/Smoke.tif
+  artifactKey: Guid(8e2e7f1c0de3a1e4bab7041325aef152) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Sprites/Smoke.tif using Guid(8e2e7f1c0de3a1e4bab7041325aef152) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3fe7cc2e54045d1b398b4f570ff2dda7') in 0.054835 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Scripts/UI/MainMenuOptions.cs
+  artifactKey: Guid(f1ce013058d994924b0826d8f098e1da) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Scripts/UI/MainMenuOptions.cs using Guid(f1ce013058d994924b0826d8f098e1da) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '311a55dbdcb334aacc9b5f367e3683c5') in 0.0277975 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Menu/iconMedals.png
+  artifactKey: Guid(8e0ea16793b6c496f8ff1044545758ea) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Menu/iconMedals.png using Guid(8e0ea16793b6c496f8ff1044545758ea) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dad7393aa949921c26e0a746e81c970c') in 0.059066 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Shared/iconTank.png
+  artifactKey: Guid(f7ebe390691f34925a99a5e23b338396) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Shared/iconTank.png using Guid(f7ebe390691f34925a99a5e23b338396) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dddf13f45b2feb2d3b62531924e4d769') in 0.05964 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/DecorationButtons/CigarIcon.png
+  artifactKey: Guid(3c7b23e3b6edb4eaeb352601015e00d2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/DecorationButtons/CigarIcon.png using Guid(3c7b23e3b6edb4eaeb352601015e00d2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '447ca1fc137bc14eb13e5a78a6414537') in 0.0564588 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Scripts/UI/LobbyScreenUI.cs
+  artifactKey: Guid(37dad5f78ffa7414cbc594540c74c7c4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Scripts/UI/LobbyScreenUI.cs using Guid(37dad5f78ffa7414cbc594540c74c7c4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '23c73bcadf7acec30bbbdcf640ff005e') in 0.0346422 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Shared/largeButton_white.png
+  artifactKey: Guid(db4780e21938e437f96d7ebecc2857b9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Shared/largeButton_white.png using Guid(db4780e21938e437f96d7ebecc2857b9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '882ccd136d81f6ee2bf1c6636dbae9b3') in 0.0598248 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Menu/24BitGames.png
+  artifactKey: Guid(93c6a2715693c4cd9b79893146dbd2a2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Menu/24BitGames.png using Guid(93c6a2715693c4cd9b79893146dbd2a2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '81b3b96a86b711fcaf0150ce136f8c43') in 0.0667085 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Menu/locked.png
+  artifactKey: Guid(322781518ee644c8c97ba31f7ded5eb6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Menu/locked.png using Guid(322781518ee644c8c97ba31f7ded5eb6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6892312cbc2b182e2358a1931067cd3d') in 0.0693487 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Scenes/AudioTapsTest.unity
+  artifactKey: Guid(fdf99c7fe1381ea4888975f8d7162254) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Scenes/AudioTapsTest.unity using Guid(fdf99c7fe1381ea4888975f8d7162254) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd64e433b22f38c06106659fa25cc6e98') in 0.0295788 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/DecorationButtons/AnimalBalloonsIcon.png
+  artifactKey: Guid(7ee5486e6268149d1b8cb7877044b126) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/DecorationButtons/AnimalBalloonsIcon.png using Guid(7ee5486e6268149d1b8cb7877044b126) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1bee3f1c1717f2dcd753524dd3ee3157') in 0.0659313 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Game/ControlsInside.png
+  artifactKey: Guid(2cede11cfc75b4b98bfd63de21528c2b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Game/ControlsInside.png using Guid(2cede11cfc75b4b98bfd63de21528c2b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '41589cefda8abd41e4023f793d818b4d') in 0.0818861 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Shared/starInactive.png
+  artifactKey: Guid(06691ef104bdc4ca2ac7c70cba3fdb42) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Shared/starInactive.png using Guid(06691ef104bdc4ca2ac7c70cba3fdb42) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '899efe66f9417afbe90b796b6eb024ec') in 0.0505954 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Shared/panelClean.png
+  artifactKey: Guid(5cd8b1f5e7726412e83880425d2ce65a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Shared/panelClean.png using Guid(5cd8b1f5e7726412e83880425d2ce65a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4faa9dd7e21fbe51a555d81bcf3dc13b') in 0.0588303 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Shared/X.png
+  artifactKey: Guid(991da9d2dbab5462ea8ad1e3e2910f42) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Shared/X.png using Guid(991da9d2dbab5462ea8ad1e3e2910f42) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd9e800752fb54c43af8c3b4449dc7b93') in 0.052801 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Shared/Coin.png
+  artifactKey: Guid(8cc28ce80f8ad453690b5824462729ec) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Shared/Coin.png using Guid(8cc28ce80f8ad453690b5824462729ec) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cd7fa1051f1a74c66c8cba862ad70799') in 0.0468883 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Game/ControlsOutside.png
+  artifactKey: Guid(5756c16f0426046eabe51834418b086d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Game/ControlsOutside.png using Guid(5756c16f0426046eabe51834418b086d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ec09158c0b819986177520e57c26d4e8') in 0.0547676 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Shared/button.png
+  artifactKey: Guid(dae83dd9333fc4e3da141675f6b5e4e3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Shared/button.png using Guid(dae83dd9333fc4e3da141675f6b5e4e3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dc534c066b297ecff199eead3884e070') in 0.0569587 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Shared/iconStar.png
+  artifactKey: Guid(0584050e6d43b42fe85bffd55c020a53) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Shared/iconStar.png using Guid(0584050e6d43b42fe85bffd55c020a53) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd98630e45a5107d69a245d098ee3aba3') in 0.053422 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Scripts/VoiceMeter.cs
+  artifactKey: Guid(78e443e3fc46a2045a8f788ce723dc33) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Scripts/VoiceMeter.cs using Guid(78e443e3fc46a2045a8f788ce723dc33) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7a13958c2d1adfa9df6410e313caae22') in 0.0241159 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Game/BouncyBombWhite.png
+  artifactKey: Guid(298f504c385824d2ba4d29c3eff0ba45) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Game/BouncyBombWhite.png using Guid(298f504c385824d2ba4d29c3eff0ba45) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3bd7736323b19ac6e76bec5c1b45f363') in 0.0569579 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Sprites/Button.png
+  artifactKey: Guid(5c3872ff5d558c641b2be0521f37ac29) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Sprites/Button.png using Guid(5c3872ff5d558c641b2be0521f37ac29) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ec284a4d2fa181416e09649b5d90f48d') in 0.0542492 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/DA_Minimal_Setup/Player Prefab.prefab
+  artifactKey: Guid(4cafe07e9c45c6640bc94fb343fcc7c0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DA_Minimal_Setup/Player Prefab.prefab using Guid(4cafe07e9c45c6640bc94fb343fcc7c0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fe86b4297c679224369d354b60fac335') in 0.1502216 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/DefaultVolumeProfile.asset
+  artifactKey: Guid(bd15df8cac2a8ce47941e4d849072dd4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DefaultVolumeProfile.asset using Guid(bd15df8cac2a8ce47941e4d849072dd4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '646c99cd9aafc4d91e28f0463f7f19a0') in 0.0380016 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/DecorationButtons/GogglesIcon.png
+  artifactKey: Guid(74389791f3b9545fcb3a6ae29e3f853d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/DecorationButtons/GogglesIcon.png using Guid(74389791f3b9545fcb3a6ae29e3f853d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2b9e760933643d4aef997e8b4fd94c1d') in 0.0494436 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Scenes/MainSceneSettings.lighting
+  artifactKey: Guid(cc6e569c1f501384ca165502cbde19da) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Scenes/MainSceneSettings.lighting using Guid(cc6e569c1f501384ca165502cbde19da) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c0ab11ff2004179a3e3c0629b6f1260e') in 0.0542711 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Shared/buttonNext.png
+  artifactKey: Guid(d754e841e520b479d94e2616d603a304) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Shared/buttonNext.png using Guid(d754e841e520b479d94e2616d603a304) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fb8bab341566475b85b567392d9eef97') in 0.0584546 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Scripts/ChatChannelSample.asmdef
+  artifactKey: Guid(1951011bf54fef84ab3c895f6cb141a6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Scripts/ChatChannelSample.asmdef using Guid(1951011bf54fef84ab3c895f6cb141a6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5d7ddb2e5041a667d8bc1be504511d9c') in 0.0361576 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Shared/panelSmall.png
+  artifactKey: Guid(8b61b240ab65e45958c52db554fe95a4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Shared/panelSmall.png using Guid(8b61b240ab65e45958c52db554fe95a4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '00c15b1c6fabc89ac91e2485a7e9b541') in 0.0569492 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Menu/iconDecorate.png
+  artifactKey: Guid(704c734bb4a23475781bf1a069256ebd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Menu/iconDecorate.png using Guid(704c734bb4a23475781bf1a069256ebd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3291215161adb2bea8c0d99c9af966cb') in 0.0530612 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Sprites/MeterSprite.png
+  artifactKey: Guid(ce0ef21ddfd35034aa7fd7c50bfe42cc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Sprites/MeterSprite.png using Guid(ce0ef21ddfd35034aa7fd7c50bfe42cc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '85b7de604beb06abd7096930c4fbc0a7') in 0.047075 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Scenes/EchoTest.unity
+  artifactKey: Guid(8147799f286341e48aa8c633b82a8acb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Scenes/EchoTest.unity using Guid(8147799f286341e48aa8c633b82a8acb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6d4558fc121b7af46a96ffed4bbb2eba') in 0.0265514 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Menu/connectionIndicator.png
+  artifactKey: Guid(09e8f1948fd4d48489dacfb11f30036d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Menu/connectionIndicator.png using Guid(09e8f1948fd4d48489dacfb11f30036d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ec3cbe3f9e549633a6eaf22e99f23e9d') in 0.048799 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Prefabs/MessageObject.prefab
+  artifactKey: Guid(2af402bca73371946b31c66428c0c7ac) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Prefabs/MessageObject.prefab using Guid(2af402bca73371946b31c66428c0c7ac) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'accf200f0f4c048ac55650a44ca437bb') in 0.1255835 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 81
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Shared/panelSmallHeading.png
+  artifactKey: Guid(5555c6f35ca2d41e18c2868e6ac22d34) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Shared/panelSmallHeading.png using Guid(5555c6f35ca2d41e18c2868e6ac22d34) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1748313d874608bae8d8ba6111b18a26') in 0.06067 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Game/Target.png
+  artifactKey: Guid(b578ad41002ba4de1b1542697106c06e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Game/Target.png using Guid(b578ad41002ba4de1b1542697106c06e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd06774eddead8b5d2fee0052f9547d21') in 0.0614737 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/DA_Minimal_Setup/Ball Bounciness.physicsMaterial2D
+  artifactKey: Guid(130a87b702ec0584daa1294d1fc47fab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DA_Minimal_Setup/Ball Bounciness.physicsMaterial2D using Guid(130a87b702ec0584daa1294d1fc47fab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '655c2058a85a975ffc6d29e5f105898c') in 0.049315 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Shared/panelHeading.png
+  artifactKey: Guid(d83c92f5025aa4bf9a08455b21f294db) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Shared/panelHeading.png using Guid(d83c92f5025aa4bf9a08455b21f294db) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'faca15154585360cabbc52cdb4ce08a0') in 0.0774798 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Sprites/SpeakerIconNotSpeaking.png
+  artifactKey: Guid(11e2a2782c806b74b86c4621628ae30c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Sprites/SpeakerIconNotSpeaking.png using Guid(11e2a2782c806b74b86c4621628ae30c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1786a9e9b587f6f09b95e5d288745cf3') in 0.0640318 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/DecorationButtons/EyeBrowsIcon.png
+  artifactKey: Guid(784d7c51ec22241adb58e91b95855c92) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/DecorationButtons/EyeBrowsIcon.png using Guid(784d7c51ec22241adb58e91b95855c92) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '71a883b8ebb931533c47d1e2939a9a1c') in 0.0686521 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Scripts/UI/MessageObjectUI.cs
+  artifactKey: Guid(47b31589fcfca434d9913ca6c7e8e344) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Scripts/UI/MessageObjectUI.cs using Guid(47b31589fcfca434d9913ca6c7e8e344) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5bdf4173e434ec7216e5abf830b03587') in 0.0286313 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Game/Hand.png
+  artifactKey: Guid(b7c318ebb2b56487485131c8c28232cd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Game/Hand.png using Guid(b7c318ebb2b56487485131c8c28232cd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '777a10671f43716a287b8b795a0697d6') in 0.0781615 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Shared/largeButton_square.png
+  artifactKey: Guid(fc4a5d4750fd0411fa89d829905f250b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Shared/largeButton_square.png using Guid(fc4a5d4750fd0411fa89d829905f250b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a1886c4682f1da3f368095ae8c9580be') in 0.0690505 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Sprites/SpeakerIconMuted.png
+  artifactKey: Guid(643b7e6b269039e46b23502f57922b84) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Sprites/SpeakerIconMuted.png using Guid(643b7e6b269039e46b23502f57922b84) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f71ebf35610fdbd2f32e5b09e71330e2') in 0.0557069 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Game/PauseButton.png
+  artifactKey: Guid(778efdbe43151402aa93178988973064) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Game/PauseButton.png using Guid(778efdbe43151402aa93178988973064) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3312600fb5300f2bce86a30a506204f1') in 0.0752375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/DA_Minimal_Setup/NetworkPrefabsList.asset
+  artifactKey: Guid(bd046bc7c7884b7488bd31cc27ae52da) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DA_Minimal_Setup/NetworkPrefabsList.asset using Guid(bd046bc7c7884b7488bd31cc27ae52da) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0a8995c558367941e89474292dd7e78a') in 0.0414337 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Game/AimArrow.png
+  artifactKey: Guid(a5edbd9c1b7224403b7d72a318061c37) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Game/AimArrow.png using Guid(a5edbd9c1b7224403b7d72a318061c37) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f93ad977aae89b662476e4d5508d712e') in 0.0576394 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Scripts/UI/RosterItem.cs
+  artifactKey: Guid(b851b0609ebd3994390feb6cacf6c21a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Scripts/UI/RosterItem.cs using Guid(b851b0609ebd3994390feb6cacf6c21a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f4240dfa65d77422831b6385fb51c2d2') in 0.0331309 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Game/GappedOutlineWhite.png
+  artifactKey: Guid(39397d9d4b5f448329396647c2da7593) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Game/GappedOutlineWhite.png using Guid(39397d9d4b5f448329396647c2da7593) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c0b00194d99d2f9f96fbda03faa77c82') in 0.053026 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Menu/unity-logo.png
+  artifactKey: Guid(8117e2f2449f44fe7ab7d57b48faaa99) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Menu/unity-logo.png using Guid(8117e2f2449f44fe7ab7d57b48faaa99) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4b4fbea19a5786ce7a79fbc489f1706e') in 0.0494378 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/DecorationButtons/HeartBalloonsIcon.png
+  artifactKey: Guid(3d2826a5104884a9585cab9e85b598e1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/DecorationButtons/HeartBalloonsIcon.png using Guid(3d2826a5104884a9585cab9e85b598e1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9efc7db6544b7342fc40076e3f5cc928') in 0.0675097 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/DecorationButtons/TusksIcon.png
+  artifactKey: Guid(1d462f751e721444ebca36068b66bba6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/DecorationButtons/TusksIcon.png using Guid(1d462f751e721444ebca36068b66bba6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '40846f3fb7326347c56f2ec0d17f43c3') in 0.0514134 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Scripts/UI/RosterManager.cs
+  artifactKey: Guid(f535576e90c064f4f94fc5bc17b7c9e5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Scripts/UI/RosterManager.cs using Guid(f535576e90c064f4f94fc5bc17b7c9e5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '227ea0fedbedb5d1a8441a3be8f8a4a3') in 0.0225983 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Shared/largeButton_white_square.png
+  artifactKey: Guid(04ff856b0ff6a4d1ab240fc0929ef4ed) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Shared/largeButton_white_square.png using Guid(04ff856b0ff6a4d1ab240fc0929ef4ed) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5a167a509f60c0593fd7aba60e89aaff') in 0.0533553 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000447 seconds.
+  path: Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Scripts/Managers/AudioTapsManager.cs
+  artifactKey: Guid(ba8488f228bae486cb000e3b48f36ab7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Scripts/Managers/AudioTapsManager.cs using Guid(ba8488f228bae486cb000e3b48f36ab7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fdf56382fbf30e58895fa91c29639095') in 0.0223711 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Menu/lockedClean.png
+  artifactKey: Guid(2e59260c5ec144304bf9ff5cbde81256) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Menu/lockedClean.png using Guid(2e59260c5ec144304bf9ff5cbde81256) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '431508f3f158459d1f063c71312f9593') in 0.049005 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/DecorationButtons/VikingHatIcon.png
+  artifactKey: Guid(44f697299c8b443149403d0aca0502f4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/DecorationButtons/VikingHatIcon.png using Guid(44f697299c8b443149403d0aca0502f4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8a8898a9f17894c506835a24d46175b4') in 0.0507951 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Sprites/no_mic.png
+  artifactKey: Guid(4730951c66c8ee146a4cda49bd4d743c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Sprites/no_mic.png using Guid(4730951c66c8ee146a4cda49bd4d743c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7d301194e5e526e61b75407d266c61e5') in 0.0473451 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Shared/button_disabled.png
+  artifactKey: Guid(af44d7f34e0d54a38bba836d523deb3f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Shared/button_disabled.png using Guid(af44d7f34e0d54a38bba836d523deb3f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '780239ee47abc750f1db7a0cc0753ba5') in 0.0512245 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Menu/iconTopsecret.png
+  artifactKey: Guid(471cbcc8e1a6040528774f8500c5027f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Menu/iconTopsecret.png using Guid(471cbcc8e1a6040528774f8500c5027f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '58b5f3480cffaba50e727f37571b3d2f') in 0.0436996 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/DecorationButtons/UnicornHornIcon.png
+  artifactKey: Guid(b67db6ba00be24c399907dbdd1fa09fd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/DecorationButtons/UnicornHornIcon.png using Guid(b67db6ba00be24c399907dbdd1fa09fd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a17094956ffd015938b43df79b4838db') in 0.0440469 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Shared/panelFloating.png
+  artifactKey: Guid(1cccd2c2b29f947cabdbf08bba71dd22) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/Vivox/16.5.4/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Shared/panelFloating.png using Guid(1cccd2c2b29f947cabdbf08bba71dd22) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aeace5321e8ed414cf739060cee57da0') in 0.0408229 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
