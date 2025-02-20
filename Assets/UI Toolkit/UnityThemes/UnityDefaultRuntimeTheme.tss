@@ -1,1 +1,3 @@
 @import url("unity-theme://default");
+
+@import url("/Packages/com.unity.purchasing/Editor/ServiceProjectSettings/UI/StyleSheets/ServicesProjectSettingsDark.uss");

@@ -1,14 +1,30 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatChannelSample", "ChatChannelSample.csproj", "{AFD94764-BC76-9AF4-6288-BFA0AF83E66C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{8965E156-B1BC-65C0-53CD-36E1525BB190}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatChannelSample.Editor", "ChatChannelSample.Editor.csproj", "{4E329F4F-5D82-6961-58E9-E3B4FB0AA3EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-
+		{AFD94764-BC76-9AF4-6288-BFA0AF83E66C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFD94764-BC76-9AF4-6288-BFA0AF83E66C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFD94764-BC76-9AF4-6288-BFA0AF83E66C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFD94764-BC76-9AF4-6288-BFA0AF83E66C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8965E156-B1BC-65C0-53CD-36E1525BB190}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8965E156-B1BC-65C0-53CD-36E1525BB190}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8965E156-B1BC-65C0-53CD-36E1525BB190}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8965E156-B1BC-65C0-53CD-36E1525BB190}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E329F4F-5D82-6961-58E9-E3B4FB0AA3EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E329F4F-5D82-6961-58E9-E3B4FB0AA3EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E329F4F-5D82-6961-58E9-E3B4FB0AA3EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E329F4F-5D82-6961-58E9-E3B4FB0AA3EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

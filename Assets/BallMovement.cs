@@ -11,12 +11,10 @@ public class BallMovement : NetworkBehaviour
     [Tooltip("Reference to the Rigidbody2D component.")]
     public Rigidbody2D rb;
 
-    // Store the starting position for resetting the ball.
     private Vector2 startPosition;
 
     void Awake()
     {
-        // If not assigned via Inspector, try to get the Rigidbody2D component.
         if (rb == null)
             rb = GetComponent<Rigidbody2D>();
 
@@ -26,33 +24,34 @@ public class BallMovement : NetworkBehaviour
 
     public override void OnNetworkSpawn()
     {
-        // Save the starting position when the ball spawns on the network.
         startPosition = transform.position;
 
-        // Only the server should launch the ball.
+        // Only the server should check for players and launch the ball.
         if (IsServer)
         {
-            Launch();
+            if (ArePlayersInScene())
+            {
+                Launch();
+            }
         }
     }
 
     /// <summary>
-    /// Launches the ball in a random diagonal direction.
+    /// Checks if both Player1 and Player2 are present in the scene.
     /// </summary>
+    private bool ArePlayersInScene()
+    {
+        return GameObject.FindWithTag("Player1") != null && GameObject.FindWithTag("Player2") != null;
+    }
+
     void Launch()
     {
-        // Randomly choose horizontal and vertical directions (-1 or 1).
         float xMovement = Random.Range(0, 2) == 0 ? -1f : 1f;
         float yMovement = Random.Range(0, 2) == 0 ? -1f : 1f;
 
-        // Set the ball's velocity.
         rb.linearVelocity = new Vector2(xMovement * speed, yMovement * speed);
     }
 
-    /// <summary>
-    /// Resets the ball to its starting position and relaunches it.
-    /// This can be called (from the server) when a point is scored.
-    /// </summary>
     public void ResetBall()
     {
         rb.linearVelocity = Vector2.zero;
